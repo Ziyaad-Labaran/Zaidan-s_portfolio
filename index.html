@@ -1,0 +1,246 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+        integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="style.css">
+    <title>Zaidan portfolio</title>
+</head>
+
+<body>
+    <header>
+        <nav>
+            <a href="index.html">Home</a>
+            <a href="#works">Portfolio</a>
+        </nav>
+        <div class="logo">Zaidanstudio</div>
+        <div class="hamburger" onclick="toggleMobileNav()">
+            <span></span>
+            <span></span>
+            <span></span>
+        </div>
+        <div><button><a href="">Explore Now</a></button></div>
+    </header>
+
+    <div class="mobile-nav" id="mobileNav">
+        <a href="index.html">Home</a>
+        <a href="#works">Portfolio</a>
+        <a href="#contact">contact</a>
+    </div>
+
+    <section class="hero">
+        <div>
+            <h1>KARIM ZAIDAN</h1>
+        </div>
+    </section>
+    <section class="hero-2">
+        <div class="hero-text">
+            <div>
+                <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi, aperiam quo eum laboriosam dolorem
+                    itaque, laborum eaque nihil veritatis earum qui sint excepturi sapiente unde eligendi sed placeat
+                    architecto facere! Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab cumque quasi
+                    necessitatibus adipisci corrupti eum possimus sunt asperiores voluptatibus labore, rem provident
+                    reiciendis, perspiciatis commodi ut quam, repudiandae quo maxime.</p>
+                <br>
+                <br>
+                <button> <a href="#contact" style="color: black;"> Contact </a></button>
+            </div>
+        </div>
+
+        <div class="hero-back">
+            <div class="hero-back-pic">
+
+            </div>
+        </div>
+    </section>
+
+    <section class="Myworks" id="works">
+        <div class="heading">
+            <h1>My Works</h1>
+        </div>
+        <h1 class="heading2">Architecture</h1>
+        <div class="work-pics">
+            <a href="project1.html">
+                <div class="work" id="img-1"></div>
+            </a>
+            <a href="portfolio2.html">
+                <div class="work" id="img-2"></div>
+            </a>
+            <a href="portfolio3.html">
+                <div class="work" id="img-3"></div>
+            </a>
+        </div>
+        <br>
+        <br>
+        <div class="work-pics">
+            <a href="project4.html">
+                <div class="work" id="img-4"></div>
+            </a>
+            <!-- <a href="" > <div class="work" id="img-5"></div></a> 
+            <a href="" > <div class="work" id="img-6"></div></a>  -->
+        </div>
+        <br>
+        <br>
+        <h1 class="heading2">3D Modeling</h1>
+        <br> <br>
+        <div class="work-pics" id="pics">
+            <a href="model1.html">
+                <div class="work" id="img-7"></div>
+            </a>
+            <a href="model2.html">
+                <div class="work" id="img-8"></div>
+            </a>
+            <a href="model3.html">
+                <div class="work" id="img-9"></div>
+            </a>
+        </div>
+        <br>
+        <br>
+        <br>
+        <br>
+        <h1 style="text-align: center;">Graphic Design</h1>
+        <div class="work-pics" id="pics">
+
+
+            <div class="work" id="img-10"></div>
+            <div class="work" id="img-11"></div>
+            <div class="work" id="img-12"></div>
+            <div class="work" id="img-13"></div>
+            <div class="work" id="img-14"></div>
+            <div class="work" id="img-15"></div>
+            <div class="work" id="img-16"></div>
+        </div>
+
+    </section>
+    <br>
+    <br>
+    <section class="small-sec">
+        <div class="small-main">
+            <h1>About</h1>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque, cum! Eum ullam, placeat cumque, sed alias
+                illo, maxime voluptatum sequi temporibus hic adipisci quos quisquam illum deserunt culpa error officia.
+            </p>
+            <button class="view">View Projects</button>
+        </div>
+    </section>
+    <section class="main-side">
+        <div class="side1">
+        </div>
+        <div class="side2">
+        </div>
+    </section>
+    <section class="form-sec" id="contact">
+        <div class="form-img">
+        </div>
+        <form action="" method="post">
+            <div class="form-items">
+                <h2>Contact Me</h2>
+                <br>
+                <br>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias veniam architecto sunt, eveniet
+                    sed
+                    aliquid dignissimos, modi laborum cum incidunt perferendis adipisci saepe nemo illo maxime molestiae
+                    veritatis hic vel.</p>
+                <br>
+                <br>
+                <div class="form1">
+                    <div>
+                        <label for="fname">
+                            First name*
+                        </label>
+                        <br>
+                        <input type="text" id="fname">
+                    </div>
+
+                    <div>
+                        <label for="lname">
+                            Last name*
+                        </label>
+                        <br>
+                        <input type="text" id="lname">
+                    </div>
+                </div>
+                <div class="form1">
+                    <div>
+                        <label for="email">
+                            Email*
+                        </label><br>
+                        <input type="email" id="email">
+                    </div>
+                </div>
+                <div class="form1">
+                    <div>
+                        <label for="message">
+                            Message
+                        </label><br>
+                        <input type="text" id="message">
+                    </div>
+                </div>
+                <br>
+                <button type="submit">Submit</button>
+            </div>
+        </form>
+    </section>
+    <footer>
+        <div class="footer-content">
+            <div class="footer-top">
+                <div class="footer-section footer-about">
+                    <h3>Zaidan Studio</h3>
+                    <p>Creating extraordinary digital experiences that inspire and transform. We believe in the power of
+                        design to change perspectives and build connections that last a lifetime.</p>
+                    <div class="social-links">
+                        <div class="social-link linkedin">
+                            <i class="fa-brands fa-linkedin-in"></i>
+                        </div>
+                        <div class="social-link instagram">
+                            <i class="fa-brands fa-instagram"></i>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="footer-section footer-contact">
+                    <h3>Get In Touch</h3>
+                    <div class="contact-item">
+                        <i class="fa-solid fa-user"></i>
+                        <span>Zaidan Karim</span>
+                    </div>
+                    <div class="contact-item">
+                        <i class="fa-solid fa-phone"></i>
+                        <span>0592509303</span>
+                    </div>
+                    <div class="contact-item">
+                        <i class="fa-solid fa-envelope"></i>
+                        <span>zaidankarim@gmail.com</span>
+                    </div>
+                    <div class="contact-item">
+                        <i class="fa-solid fa-location-dot"></i>
+                        <span>Accra, Greater Accra, GH</span>
+                    </div>
+                </div>
+
+                <div class="footer-section footer-services">
+                    <h3>Services</h3>
+                    <ul>
+                        <li>Architecture</li>
+                        <li>Graphic design</li>
+                        <li>Product Design</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+        <div class="footer-bottom">
+            <div class="footer-logo">Zaidanstudio</div>
+            <p>&copy; 2025 by Ziyaad Labaran. All rights reserved.</p>
+        </div>
+        </div>
+    </footer>
+    <script src="script.js">
+    </script>
+</body>
+
+</html>
