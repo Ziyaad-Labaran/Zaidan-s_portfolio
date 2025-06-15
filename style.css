@@ -299,7 +299,7 @@ header button:hover {
     align-items: center;
     font-size: clamp(3rem, 8vw, 7rem);
     position: relative;
-    top: 15vh;
+    top: 17vh;
     font-family: "Poppins", sans-serif;
     font-style: normal;
 }
