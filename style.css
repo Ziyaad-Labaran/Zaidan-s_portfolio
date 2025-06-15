@@ -77,6 +77,9 @@ nav a:hover {
     color: #667eea;
 }
 
+.size{
+    font-size: 2rem;
+}
 .logo {
     color: black;
     font-size: 2rem;
