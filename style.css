@@ -79,7 +79,7 @@ nav a:hover {
 
 .size1{
     font-size: 2rem;
-   color: linear-gradient(45deg, #667eea, #764ba2) ;
+      background: linear-gradient(45deg, #667eea, #764ba2);
 }
 
 .logo {
