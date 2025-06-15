@@ -313,7 +313,7 @@ header button:hover {
 }
 
 .Myworks {
-    position: relative;
+    position: relative ;
     top: 20vh;
     min-height: 100vh;
     padding: 0 1rem;
