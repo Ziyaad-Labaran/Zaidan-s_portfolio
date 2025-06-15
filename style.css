@@ -16,7 +16,9 @@ body {
     /* background: hsl(0, 0%, 90%); */
     /* background-color: #DFDBE5; */
     background:url(d46cbf7af7bdc8bb4bca9465c844c42f.jpg);
-   
+   background-repeat: no-repeat;
+   background-position: center;
+   background-size: cover;
 }
 
 header {
