@@ -77,7 +77,7 @@ nav a:hover {
     color: #667eea;
 }
 
-.typed-text{
+#typed-text{
     font-size: 2rem;
    /* color: black; */
     font-family: Arial, Helvetica, sans-serif;
