@@ -446,6 +446,27 @@ header button:hover {
     }
 }
 
+   .about {
+       display: flex;
+       justify-content: space-around;
+       align-items: center;
+       padding: 4rem 1.5rem;
+       min-height: 90vh;
+       gap: 3rem;
+       flex-wrap: wrap;
+   }
+
+   .about>div:first-child {
+       flex: 1;
+       min-width: 300px;
+   }
+
+   .about>div:last-child {
+       flex: 1;
+       min-width: 300px;
+   }
+
+
 .heading2 {
     margin-top: 15vh;
     display: flex;
