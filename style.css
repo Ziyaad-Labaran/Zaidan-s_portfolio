@@ -89,6 +89,51 @@ nav a:hover {
      animation: logoGlow 2s ease-in-out infinite alternate;
 }
 
+   .typing-container {
+       width: fit-content;
+       white-space: nowrap;
+       overflow: hidden;
+       border-right: 2px solid black;
+       font-family: monospace;
+       font-size: 24px;
+   }
+
+   .text {
+       display: none;
+       animation: typing 2s steps(20, end), blink .5s step-end infinite alternate;
+   }
+
+   .text.first {
+       animation-delay: 0s;
+       display: inline-block;
+   }
+
+   .text.second {
+       animation-delay: 3s;
+   }
+
+   .text.third {
+       animation-delay: 6s;
+   }
+
+   @keyframes typing {
+       from {
+           width: 0
+       }
+
+       to {
+           width: 100%
+       }
+   }
+
+   @keyframes blink {
+       50% {
+           border-color: transparent;
+       }
+   }
+
+
+
 .logo {
     color: black;
     font-size: 2rem;
