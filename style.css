@@ -79,7 +79,7 @@ nav a:hover {
 
 .size1{
     font-size: 2rem;
-   color: black;
+   /* color: black; */
     font-family: Arial, Helvetica, sans-serif;
     /* Animation Enhancement */
     background: linear-gradient(45deg, #667eea, #764ba2);
