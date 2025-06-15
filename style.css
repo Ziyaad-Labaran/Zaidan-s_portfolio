@@ -292,7 +292,7 @@ header button:hover {
 }
 
 .hero {
-    background-color: white;
+    background-color: hsl(0, 0%, 90%);
     height: 30vh;
     display: flex;
     justify-content: space-around;
