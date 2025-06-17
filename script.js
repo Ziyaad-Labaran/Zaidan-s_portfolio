@@ -54,81 +54,6 @@ let letter = '';
 })();
 
 
-// const skills = document.querySelectorAll('.skills-container div');
-
-// const skillsObserverCallback = (entries) => {
-//     entries.forEach(entry => {
-//         if (entry.isIntersecting) {
-//             entry.target.classList.add('fade-in');
-//             entry.target.style.opacity = 1; // Ensure it's visible
-//             entry.target.style.transform = 'translateY(0)'; // Reset transform
-//         }
-//     });
-// };
-
-// const skillsObserver = new IntersectionObserver(skillsObserverCallback, {
-//     threshold: 0.1
-// });
-
-// skills.forEach(skill => {
-//     skillsObserver.observe(skill);
-// });
-
-
-
-// const buttons = {
-//     'experiences-btn': {
-//         title: 'My Experiences',
-//         content: `
-//         <h2>My <span>Experiences</span></h2>
-//         <br>
-//         <br>
-//         <p>Aspiring Architectural Drafter building a strong foundation in 2D drafting, 3D modeling, and concept design. I'm learning through hands-on projects that combine structure, creativity, and clear communication — from floor plans to design layouts. Always curious, always improving, and ready to contribute meaningfully in any creative or technical space.</p>
-//         `
-//     },
-//     'skills-btn': {
-//         title: 'My Skills',
-//         content: `
-//          <h1>My <span>Skills</span></h1>
-//                 <br>
-//                 <p>I have strong skills in a variety of technologies and tools including:</p>
-//                 <div class="skills-container">
-//                     <div class="skill"><img src="https://cdn-icons-png.flaticon.com/128/732/732212.png" alt="HTML5">
-//                     </div>
-//                     <div class="skill"><img src="https://cdn-icons-png.flaticon.com/128/732/732190.png" alt="CSS3">
-//                     </div>
-//                     <div class="skill"><img src="https://cdn-icons-png.flaticon.com/128/5968/5968292.png"
-//                             alt="JavaScript"></div>
-//                     <div class="skill"><img src="https://cdn-icons-png.flaticon.com/128/5968/5968705.png" alt="Figma">
-//                     </div>
-//                     <div class="skill"><img src="https://cdn-icons-png.flaticon.com/128/1126/1126012.png" alt="React">
-//                     </div>
-//                     <div class="skill"><img src="https://cdn-icons-png.flaticon.com/128/5968/5968520.png"
-//                             alt="Photoshop"></div>
-//                              <div class="skill"><img src="adobe-illustrator-icon-free-png.png"
-//                             alt="illustrator"></div>
-//                                <div class="skill"><img src="1691829322canva-app-logo-png.png"
-//                             alt="canva"></div>
-//                             <div class="skill"><img src="174881.png"
-//                             alt="canva"></div>
-//                 </div> 
-//             </div>`
-//     },
-//     'education-btn': {
-//         title: 'My Education',
-//         content: `
-//         <h2>My <span>Education</span></h2>
-//         <br>
-//         <p>I hold the following academic qualifications:</p>
-//         <br>
-//         <ul>
-//           <li>West African Senior School Certificate (2021-2024)</li>
-//           <li>Pearson BTEC Level 2 Certificate in Creative Media Skills (2024 - 2025)</li>
-//         </ul>`
-//     },
-// };
-
-// Define the content for each button
 const buttons = {
     'experiences-btn': {
         title: 'My Experiences',
@@ -154,7 +79,7 @@ const buttons = {
                 <div class="skill"><img src="revit-text-black.png" alt="Photoshop"></div>
                 <div class="skill"><img src="adobe-illustrator-icon-free-png.png" alt="Illustrator"></div>
                 <div class="skill"><img src="1691829322canva-app-logo-png.png" alt="Canva"></div>
-                <div class="skill"><img src="174881.png" alt="Architecture Board Tools"></div>
+                <div class="skill"><img src="lumion-3d-logo-png_seeklogo-268292-removebg-preview.png" alt="Architecture Board Tools"></div>
             </div>
         `
     },
@@ -169,24 +94,23 @@ const buttons = {
     },
 };
 
-// Target the content panel
+
 const contentPanel = document.getElementById('content-panel');
 
-// Load default content (experience)
+
 function loadDefaultTab() {
     contentPanel.innerHTML = buttons['experiences-btn'].content;
 }
 loadDefaultTab();
 
-// Set up button switching
 Object.keys(buttons).forEach(buttonId => {
     const button = document.getElementById(buttonId);
     if (button) {
         button.addEventListener('click', () => {
-            // Update content
+          
             contentPanel.innerHTML = buttons[buttonId].content;
 
-            // Manage tab highlighting
+       
             document.querySelectorAll('.skills-buttons button').forEach(btn => {
                 btn.setAttribute('aria-selected', 'false');
                 btn.classList.remove('active');
