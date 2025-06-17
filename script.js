@@ -150,12 +150,8 @@ const buttons = {
             <br>
             <p>I work with tools and technologies across both design and development:</p>
             <div class="skills-container">
-                <div class="skill"><img src="https://cdn-icons-png.flaticon.com/128/732/732212.png" alt="HTML5"></div>
-                <div class="skill"><img src="https://cdn-icons-png.flaticon.com/128/732/732190.png" alt="CSS3"></div>
-                <div class="skill"><img src="https://cdn-icons-png.flaticon.com/128/5968/5968292.png" alt="JavaScript"></div>
-                <div class="skill"><img src="https://cdn-icons-png.flaticon.com/128/5968/5968705.png" alt="Figma"></div>
-                <div class="skill"><img src="https://cdn-icons-png.flaticon.com/128/1126/1126012.png" alt="React"></div>
-                <div class="skill"><img src="https://cdn-icons-png.flaticon.com/128/5968/5968520.png" alt="Photoshop"></div>
+                <div class="skill"><img src="AutoCad_new_logo.svg.png" alt="Autocad"></div>
+                <div class="skill"><img src="revit-text-black.png" alt="Photoshop"></div>
                 <div class="skill"><img src="adobe-illustrator-icon-free-png.png" alt="Illustrator"></div>
                 <div class="skill"><img src="1691829322canva-app-logo-png.png" alt="Canva"></div>
                 <div class="skill"><img src="174881.png" alt="Architecture Board Tools"></div>
@@ -167,12 +163,8 @@ const buttons = {
         content: `
             <h2>My <span>Education</span></h2>
             <br>
-            <p>Here are my academic qualifications:</p>
-            <ul>
-                <li>West African Senior School Certificate (2021–2024) – Specialized in Technical Drawing, Math, and Physics.</li>
-                <li>Pearson BTEC Level 2 Certificate in Creative Media Skills (2024–2025) – Focusing on visual storytelling, media production, and digital design.</li>
-                <li>Online Courses in Architecture Drafting and UI/UX Design – Platforms: Coursera, YouTube, and Figma Academy.</li>
-            </ul>
+            <p>Currently training in architectural drafting and design, with a focus on technical accuracy, spatial thinking, and visual storytelling. I'm using this time to build solid skills, gain real project experience, and prepare for a future in design and architecture.</p>
+            
         `
     },
 };
