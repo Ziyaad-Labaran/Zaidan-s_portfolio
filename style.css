@@ -617,8 +617,7 @@ header button:hover {
 }
 
 .work {
-    height: 27rem;
-    background-color: aquamarine;
+    height: 34rem;
     width: calc(33.333% - 14px);
     min-width: 410px;
     position: relative;
