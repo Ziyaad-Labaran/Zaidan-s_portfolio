@@ -644,7 +644,7 @@ header button:hover {
 }
 
 .work::after {
-    content: 'Fragnated Design concept <br> Type:Conceptual Architecture <br> AutoCAD , Revit , Lumion';
+    content: '';
     position: absolute;
     top: 50%;
     left: 50%;
