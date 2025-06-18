@@ -618,7 +618,7 @@ header button:hover {
 .work {
     height: 34rem;
     width: calc(33.333% - 14px);
-    min-width: 310px;
+    min-width: 510px;
     position: relative;
     top: 15vh;
     transition: all 0.4s cubic-bezier(0.4, 0, 0.2, 1);
