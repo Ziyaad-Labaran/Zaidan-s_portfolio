@@ -14,14 +14,11 @@
 
 body {
     background: hsl(0, 0%, 90%);
-    /* background-color: #DFDBE5; */
 }
 
 span{
    font-size: 2rem;
-    /* color: black; */
     font-family: Arial, Helvetica, sans-serif;
-    /* Animation Enhancement */
     background: linear-gradient(45deg, #667eea, #764ba2);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
@@ -44,7 +41,6 @@ header {
     box-shadow: 0px 4px 28px -8px rgba(0, 0, 0, 0.61);
     -webkit-box-shadow: 0px 4px 28px -8px rgba(0, 0, 0, 0.61);
     -moz-box-shadow: 0px 4px 28px -8px rgba(0, 0, 0, 0.61);
-    /* Animation Enhancement */
     backdrop-filter: blur(10px);
     animation: slideDown 0.8s ease-out;
 }
@@ -96,9 +92,7 @@ nav a:hover {
 
 #typed-text {
     font-size: 2rem;
-    /* color: black; */
     font-family: Arial, Helvetica, sans-serif;
-    /* Animation Enhancement */
     background: linear-gradient(45deg, #667eea, #764ba2);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
@@ -650,7 +644,7 @@ header button:hover {
 }
 
 .work::after {
-    content: '→';
+    content: 'Fragnated Design concept <br> Type:Conceptual Architecture <br> AutoCAD , Revit , Lumion';
     position: absolute;
     top: 50%;
     left: 50%;
