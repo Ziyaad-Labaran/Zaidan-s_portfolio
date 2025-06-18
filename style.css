@@ -679,6 +679,7 @@ header button:hover {
     background-position: center;
     background-size: cover;
     border-radius: 12px;
+    height:50%;
 }
 
 #img-2 {
