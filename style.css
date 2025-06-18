@@ -611,7 +611,7 @@ header button:hover {
     display: flex;
     gap: 20px;
     flex-wrap: wrap;
-    justify-content: center;
+    justify-content: space-around;
     margin-bottom: 2rem;
 }
 
