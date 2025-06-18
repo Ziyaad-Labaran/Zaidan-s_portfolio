@@ -617,7 +617,7 @@ header button:hover {
 
 .work {
     height: 34rem;
-    width: calc(33.333% - 14px);
+    width: 30%;
     min-width: 510px;
     position: relative;
     top: 15vh;
