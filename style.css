@@ -1014,7 +1014,7 @@ form button:hover {
     box-shadow: 0 10px 20px rgba(45, 52, 54, 0.3);
 }
 
-footer {
+/* footer {
     background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
     color: white;
     position: relative;
@@ -1141,8 +1141,8 @@ footer::before {
 .social-link.instagram:hover {
     background: linear-gradient(45deg, #f09433, #e6683c, #dc2743, #cc2366, #bc1888);
     border-color: #e4405f;
-}
-
+} */
+/* 
 .footer-services ul {
     list-style: none;
     padding: 0;
@@ -1197,7 +1197,7 @@ footer::before {
 .footer-bottom p {
     opacity: 0.8;
     font-size: 0.9rem;
-}
+} */
 
 @media screen and (max-width: 1024px) {
     .hero {
