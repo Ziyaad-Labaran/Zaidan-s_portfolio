@@ -29,7 +29,7 @@ document.addEventListener('click', (e) => {
 });
 
 
-const texts = ["Architectural drafter", "Graphic Designer"];
+const texts = ["Architectural draftmanship", "Graphic Design"];
 let count = 0;
 let index = 0;
 let currentText = '';
